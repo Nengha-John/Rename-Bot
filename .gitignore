@@ -1,2 +1,4 @@
 .idea
 .env
+virtual/
+__pycache__/
