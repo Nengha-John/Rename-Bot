@@ -2,3 +2,5 @@
 .env
 virtual/
 __pycache__/
+*.session
+log.txt
