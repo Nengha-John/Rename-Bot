@@ -6,5 +6,5 @@ RUN mkdir /rename-bot
 WORKDIR /rename-bot
 ADD requirements.txt /rename-bot/
 RUN pip install -r requirements.txt
-ADD . /rename-bot//
+ADD . /rename-bot/
 CMD [ "python", "-m", "bot" ]
